@@ -1,7 +1,7 @@
 {
-  "name": "binary-zenith",
+  "name": "cdbl",
   "version": "1.0.0",
-  "description": "",
+  "description": "See double. Catch what changed.",
   "main": "index.js",
   "scripts": {
     "test:update-baseline": "cross-env TEST_ENV=prod npx playwright test --update-snapshots",

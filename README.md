@@ -1,6 +1,8 @@
-# Binary Zenith Visual Tests
+# cdbl
 
-This project provides automated visual regression testing using Playwright. It also includes a crawler script to dynamically extract a list of URLs to test across a target website.
+> See double. Catch what changed.
+
+Automated visual regression testing powered by Playwright. cdbl crawls your site, captures baseline screenshots, and compares them against staging — so you catch visual regressions before your users do.
 
 ## Prerequisites
 
