@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains secrets)
+.env
+
+# Playwright output
+playwright-report/
+test-results/

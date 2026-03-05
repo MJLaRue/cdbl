@@ -1,0 +1,21 @@
+{
+  "name": "binary-zenith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:update-baseline": "cross-env TEST_ENV=prod npx playwright test --update-snapshots",
+    "test:compare": "cross-env TEST_ENV=staging npx playwright test",
+    "report": "npx playwright show-report",
+    "crawl": "node scripts/crawl.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.3.1"
+  }
+}
